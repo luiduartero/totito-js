@@ -1,0 +1,37 @@
+$cuadro-size: 100px;
+$reset_size: 70px;
+.boton{
+   height: $cuadro-size;
+   width: $cuadro-size;
+   background-color: white;
+   float: left;
+   margin: 5px, 5px,5px, 5px;
+   border-radius: 10%;
+   background-color: #D6F514;
+}
+.x{
+  background-color: #2D8DF6;
+}
+.o{
+  background-color: #C22F23;
+}
+#viewport{
+  margin-left: calc( 50% - 175px);
+  text-align: center;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+}
+.titulo{
+  text-align: center;
+}
+.reset{
+  height: $reset_size;
+  width: $reset_size;
+  background-color: white;
+  margin: auto;
+  background-color: #D6F514;
+}
+h1,h2,h3{
+  font-family: Lucida Console;
+}
